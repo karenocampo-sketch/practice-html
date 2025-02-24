@@ -1,0 +1,46 @@
+body {
+  color: #00f;
+  background-color: #cfc;
+  font-family: Georgia, Cambria, serif;
+  font-size: 16px;
+}
+
+h1 {
+  color: #f00;
+  font-size: 32px;
+  font-family: Verdana, Calibri, sans-serif;
+}
+h2 {
+  color: #a00;
+  font-family: Verdana, Calibri, sans-serif;
+  font-size: 24px;
+}
+span {
+  color: #060;
+}
+strong {
+  font-size: 20px;
+}
+.hypertext {
+  color: #fff;
+  background-color: #000;
+  font-style: italic;
+}
+.autor {
+  color: violet;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  margin-top: 100px;
+  position: relative;
+}
+.autor::before {
+  content: "──── ୨୧ ────";
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 30px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
