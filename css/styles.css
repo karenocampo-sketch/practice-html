@@ -1,4 +1,4 @@
-body {
+.curso-practico {
   color: #00f;
   background-color: #cfc;
   font-family: Georgia, Cambria, serif;
@@ -43,4 +43,28 @@ strong {
   left: 0;
   right: 0;
   margin: 0 auto;
+}
+.selectores {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.selectores p {
+  color: #555;
+}
+.selectores #primero p {
+  color: #369;
+}
+.selectores a {
+  color: #c30;
+}
+.selectores #primero em {
+  color: #0000bb;
+  background-color: #ffffcc;
+}
+.selectores .especial {
+  color: #ffff00;
+  background: #000000;
+}
+.selectores .normal {
+  font-weight: bold;
 }
