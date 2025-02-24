@@ -68,3 +68,312 @@ strong {
 .selectores .normal {
   font-weight: bold;
 }
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+/* Colores de las celdas */
+.teal td {
+  color: teal;
+  background-color: teal;
+}
+.teal.nthchild .red {
+  background-color: red;
+}
+.red td {
+  color: red;
+}
+.blue td {
+  color: blue;
+  background-color: blue;
+}
+.orange td {
+  color: orange;
+  background-color: orange;
+}
+.purple td {
+  color: purple;
+  background-color: purple;
+}
+.olive td {
+  color: olive;
+  background-color: olive;
+}
+.fuchsia td {
+  color: fuchsia;
+  background-color: fuchsia;
+}
+.green td {
+  color: green;
+  background-color: green;
+}
+
+/* Aplicando nth-child a cada fila */
+
+/* TEAL */
+.teal td:nth-child(1) {
+  background-color: white;
+  color: teal;
+}
+.teal td:nth-child(2) {
+  background-color: red;
+}
+.teal td:nth-child(3) {
+  background-color: green;
+}
+.teal td:nth-child(4) {
+  background-color: blue;
+}
+
+/* BLUE */
+.blue td:nth-child(1) {
+  background-color: white;
+  color: blue;
+}
+.blue td:nth-child(2) {
+  background-color: red;
+}
+.blue td:nth-child(3) {
+  background-color: green;
+}
+.blue td:nth-child(4) {
+  background-color: blue;
+}
+/* RED */
+.red td:nth-child(1) {
+  background-color: white;
+  color: red;
+}
+.red td:nth-child(2) {
+  background-color: red;
+}
+.red td:nth-child(3) {
+  background-color: green;
+}
+.red td:nth-child(4) {
+  background-color: blue;
+}
+
+/* ORANGE */
+.orange td:nth-child(1) {
+  background-color: white;
+  color: orange;
+}
+.orange td:nth-child(2) {
+  background-color: red;
+}
+.orange td:nth-child(3) {
+  background-color: green;
+}
+.orange td:nth-child(4) {
+  background-color: blue;
+}
+
+/* PURPLE */
+.purple td:nth-child(1) {
+  background-color: white;
+  color: purple;
+}
+.purple td:nth-child(2) {
+  background-color: red;
+}
+.purple td:nth-child(3) {
+  background-color: green;
+}
+.purple td:nth-child(4) {
+  background-color: blue;
+}
+
+/* OLIVE */
+.olive td:nth-child(1) {
+  background-color: white;
+  color: olive;
+}
+.olive td:nth-child(2) {
+  background-color: red;
+}
+.olive td:nth-child(3) {
+  background-color: green;
+}
+.olive td:nth-child(4) {
+  background-color: blue;
+}
+
+/* FUCHSIA */
+.fuchsia td:nth-child(1) {
+  background-color: white;
+  color: fuchsia;
+}
+.fuchsia td:nth-child(2) {
+  background-color: red;
+}
+.fuchsia td:nth-child(3) {
+  background-color: green;
+}
+.fuchsia td:nth-child(4) {
+  background-color: blue;
+}
+
+/* GREEN */
+.green td:nth-child(1) {
+  background-color: white;
+  color: green;
+}
+.green td:nth-child(2) {
+  background-color: red;
+}
+.green td:nth-child(3) {
+  background-color: green;
+}
+.green td:nth-child(4) {
+  background-color: blue;
+}
+
+.mas-selectores a {
+  color: red;
+  text-decoration: none;
+}
+.mas-selectores a:hover {
+  color: white;
+  background-color: red;
+  text-decoration: underline;
+}
+.mas-selectores a:active {
+  color: orange;
+  text-decoration: none;
+}
+.mas-selectores a:visited {
+  color: darkgreen;
+  text-decoration: none;
+}
+.mas-selectores a:focus {
+  color: blue;
+  text-decoration: underline;
+}
+.lista-organizada {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: auto;
+}
+.lista-organizada ul:nth-of-type(1) {
+  list-style: none;
+}
+.lista-organizada ul:nth-of-type(2) {
+  list-style-type: circle;
+}
+.lista-organizada ul:nth-of-type(3) {
+  list-style-type: square;
+}
+.lista-organizada ol:nth-of-type(1) {
+  list-style-type: upper-roman;
+}
+.lista-organizada ol:nth-of-type(2) {
+  list-style-type: lower-greek;
+}
+
+.otra-seccion {
+  margin: 0 auto;
+  min-width: 250px;
+  font-family: Arial, sans-serif;
+}
+.otra-seccion h1 {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+.otra-seccion .menu {
+  list-style: none;
+  padding: 0;
+  width: 200px;
+}
+.otra-seccion .menu li {
+  margin-bottom: 5px;
+}
+.otra-seccion .menu a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: 2px solid blue;
+}
+.otra-seccion .menu a:hover,
+.otra-seccion .menu a:focus {
+  border-color: red;
+}
+
+.nueva-seccion h1 {
+  color: black;
+  border-bottom: 2px solid #00f;
+  padding-bottom: 5px;
+}
+.nueva-seccion h2 {
+  color: black;
+  border: 2px solid #aaa;
+  padding: 5px;
+}
+.nueva-seccion ul:first-of-type {
+  border-top: 4px dotted #f00;
+  border-bottom: 4px dotted #f00;
+  padding: 10px;
+  list-style-type: none;
+}
+.nueva-seccion ul:last-of-type {
+  border: 2px dashed #0f0;
+  padding: 10px;
+  list-style-type: none;
+}
+.ultima-seccion {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ultima-seccion header {
+  width: 100%;
+  height: 20%;
+  background: #cccccc; /* Gris */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.ultima-seccion nav {
+  width: 30%;
+  height: 70%;
+  background: #ffff99; /* Amarillo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.ultima-seccion section {
+  width: 70%;
+  height: 70%;
+  background: #7777ff; /* Azul */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.ultima-seccion footer {
+  width: 100%;
+  height: 10%;
+  background: #90ee90; /* Verde */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
